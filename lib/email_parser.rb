@@ -13,6 +13,7 @@ class EmailAddressParser
   def parse
     cvs_emails.split.collect do |email|
       email.split(",")
+    end
       
   end
 end
